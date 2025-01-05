@@ -1,0 +1,1 @@
+((http.user_agent eq "" or http.user_agent contains "LOIC") or (http.request.uri.path eq "/" and cf.threat_score > 15))
