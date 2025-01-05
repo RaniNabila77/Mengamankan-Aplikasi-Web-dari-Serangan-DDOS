@@ -1,0 +1,511 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #040D12;
+    
+}
+
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier';
+    color: #7077A1;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #000000;
+    z-index: 1;
+    border-bottom: 1px solid #BFCFE7;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+nav ul li a :hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #BFCFE7;
+    width :100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #BFCFE7;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:#000000; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+a.tbl-pink {
+    background: #BFCFE7;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:#000000; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+    
+}
+
+a.tbl-pink:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+#about p
+ {
+    text-align: justify;
+}
+
+
+
+.kolom { 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #BFCFE7;
+}
+
+.gambar {
+    width: 700px;
+    margin-top: 20px;   /* Memberikan jarak atas sebesar 20px dari nav */
+}
+
+.rc-Markdown.styled.rc-ArticleTable {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #8E8B82; /* Menetapkan warna latar belakang tabel */
+    color: white;
+}
+
+#jenis p
+ {
+    text-align: justify;
+}
+
+.rc-Markdown.styled.rc-ArticleTable td {
+    border: 1px solid #52575D;
+    text-align: left;
+    padding: 8px;
+}
+
+.rc-Markdown.styled.rc-ArticleTable th {
+    background-color: #41444B; /* Menetapkan warna latar belakang sel header */
+}
+
+.rc-Markdown.styled.rc-ArticleTable tbody tr:nth-child(even) {
+    background-color: #52575D; /* Menetapkan warna latar belakang sel genap */
+}
+
+.custom-list {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: justify;
+}
+
+.custom-list > li {
+    margin-bottom: 10px;
+}
+
+.custom-list ul {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: white;
+}
+
+#skills p
+ {
+    text-align: justify;
+}
+
+.main_icon{
+    width: 1000px;
+    height: 1100px;
+    background-color: #52575D;
+    padding: 20px;
+}
+.first_main_iocn_park{
+    padding: 20px;
+    display: flex;
+    background: #A79E8B;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.first_main_iocn_park_dua{
+    padding: 20px;
+    display: flex;
+    background: #9D8F8F;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.first_main_iocn_park_tiga{
+    padding: 20px;
+    display: flex;
+    background: #BCBAB8;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.first_main_iocn_park_empat{
+    padding: 20px;
+    display: flex;
+    background: #CABFAB;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.first_main_iocn_park_lima{
+    padding: 20px;
+    display: flex;
+    background: #DFD8C8;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#second{
+    width: 45px;
+    margin-left: 40px;
+
+}
+
+#platform p{
+    text-align: justify;
+    padding: 15px;
+}
+
+.main_icon_dua{
+    width: 1000px;
+    height: 680px;
+    background-color: #52575D;
+    padding: 20px;
+}
+
+#lomba p{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+
+}
+
+.main_icon_tiga{
+    width: 1000px;
+    height: 700px;
+    background-color: #52575D;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main_icon_tiga .firdt,
+.main_icon_tiga .fird {
+    padding-top: 10px;
+    width: calc(50% - 10px); /* Setiap elemen memakan setengah dari lebar parent container dengan sedikit jarak di antara */
+}
+.main_icon_tiga iframe {
+    width: 100%;
+    height: 315px;
+}
+.main_icon_tiga p {
+    margin-top: 10px; /* Jarak antara video dan teks */
+    text-align: justify;
+}
+
+.main_galeri{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0px;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.grid > img {
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.grid > img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 1000px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+#contact p{
+    color: #040D12;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #16213E;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding:  50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+body.register {
+    height: 100vh;
+    background-image: url('GameDeveloper1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 80px;
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #BCBAB8;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    .gambar,
+    .main_icon,
+    .main_icon_tiga {
+        width: 90%;
+    }
+
+    .main_icon_dua .fird {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    /* Aturan untuk konten dengan kelas first_main_iocn_park */
+    .first_main_iocn_park {
+        width: 90%; /* Lebar konten disesuaikan dengan lebar layar pada layar kecil hingga medium */
+        margin: auto; /* Pusatkan konten pada layar yang lebih kecil */
+        padding: 20px; /* Padding konten */
+        display: flex; /* Membuat konten menjadi flexbox */
+        background: #A79E8B; /* Warna latar belakang */
+        align-items: center; /* Pusatkan konten vertikal */
+        justify-content: center; /* Pusatkan konten horizontal */
+        border-radius: 20px; /* Border radius */
+        margin-bottom: 20px; /* Jarak bawah */
+    }
+}
+
+/* Aturan media query untuk layar berukuran kecil */
+@media screen and (max-width: 767.98px) {
+    nav ul li a {
+        font-size: 10px;
+    }
+}
+
+/* Konten pada halaman platform, skills, howdo, dan prestasi */
+#skills p,
+#platform p,
+#howdo p,
+#prestasi p {
+    text-align: justify;
+    padding: 15px;
+}
+
+/* Media query untuk layar berukuran sangat kecil */
+@media (max-width: 600px) {
+    /* Mengubah padding dan ukuran font untuk paragraf pada halaman platform, skills, howdo, dan prestasi */
+    #skills p,
+    #platform p,
+    #howdo p,
+    #prestasi p {
+        padding: 10px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /* Menyesuaikan lebar konten tiga kolom */
+    .main_icon_tiga,
+    .main_icon_dua {
+        width: 100%;
+    }
+
+    /* Aturan untuk konten dengan kelas first_main_iocn_park */
+    .first_main_iocn_park {
+        padding: 10px; /* Ubah padding untuk konten pada layar sangat kecil */
+    }
+
+    /* Mengatur tata letak grid pada halaman platform */
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+}
+
